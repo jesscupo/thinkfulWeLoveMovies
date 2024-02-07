@@ -1,4 +1,4 @@
-const knex = require("../db/connection");
+const knex = require("../api/db/connection");
 const reduceProperties = require("../utils/reduce-properties");
 const reduceMovies = reduceProperties("theater_id", {
     "movie_id": ["movies", null, "movie_id"],
