@@ -19,10 +19,10 @@ module.exports = {
     connection: URL,
     pool: { min: 0, max: 5 },
     migrations: {
-      directory: path.join(__dirname, "src", "api", "db", "migrations"),
+      directory: path.join(__dirname, "src", "db", "migrations"),
     },
     seeds: {
-      directory: path.join(__dirname, "src", "api", "db", "seeds"),
+      directory: path.join(__dirname, "src",  "db", "seeds"),
     },
   },
 
@@ -30,10 +30,10 @@ module.exports = {
     client: "postgresql",
     connection: URL,
     migrations: {
-      directory:  path.join(__dirname, "src", "api", "db", "migrations"),
+      directory:  path.join(__dirname, "src", "db", "migrations"),
     },
     seeds: {
-      directory: path.join(__dirname, "src", "api", "db", "seeds"),
+      directory: path.join(__dirname, "src",  "db", "seeds"),
     },
   },
 

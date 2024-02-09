@@ -1,4 +1,4 @@
-const knex = require("../api/db/connection");
+const knex = require("../db/connection");
 
 
  function read(reviewId) {
